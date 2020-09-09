@@ -1,0 +1,40 @@
+.tabsContent {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tabsText {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #677b8f;
+margin-bottom: 20px;
+  }
+  
+  .features {
+    display: flex;
+    flex-direction: column;
+  }
+  .featuresList{
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+  }
+  .featuresList li{
+      position: relative;
+      margin-left: 20px;
+  }
+  .featuresList li::before{
+    content: "•"; 
+    position: absolute;
+    color: #F84AB3;
+    left:-20px;
+  }
+  .features .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 0;
+    color: #012345;
+  }
